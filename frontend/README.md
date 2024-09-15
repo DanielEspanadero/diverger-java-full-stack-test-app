@@ -38,6 +38,19 @@ npm run dev
 
 Access the application: The application will be available at http://localhost:5173.
 
+## App Routes
+
+```bash
+/
+```
+![image](https://github.com/DanielEspanadero/diverger-java-full-stack-test-app/blob/develop/docs/route1.png)
+
+```bash
+/characters
+```
+![image](https://github.com/DanielEspanadero/diverger-java-full-stack-test-app/blob/develop/docs/route2.png)
+
+
 ## Docker
 
 ### Build the Docker image:
