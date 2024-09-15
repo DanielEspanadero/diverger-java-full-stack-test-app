@@ -25,7 +25,7 @@ public class PeopleMapper {
                 .toList();
 
         dto.setFilms(filmDTOs);
-        
+
         return dto;
     }
 }
