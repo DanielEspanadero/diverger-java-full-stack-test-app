@@ -51,6 +51,22 @@ Run the Docker container:
 docker run -p 8080:8080 starwars-app
 ```
 
+## Docker Compose
+
+_Running docker compose will allow you to start the backend and the frontend at the same time. Remember to run the commands in the main path (not in the frontend folder or in the backend folder)._
+
+Run the Docker Compose:
+
+```bash
+docker-compose up --build
+```
+
+Down the Docker Compose:
+
+```bash
+docker-compose down
+```
+
 ## Endpoints
 
 GET `/swapi-proxy/person-info?name={name}`: Retrieve information about a Star Wars character.
