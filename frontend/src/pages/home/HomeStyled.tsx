@@ -11,4 +11,9 @@ export const HomeStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    .logo{
+        width: 25rem;
+        margin-bottom: 1rem;
+    }
 `;
