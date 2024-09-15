@@ -1,3 +1,8 @@
+![image](https://github.com/DanielEspanadero/diverger-java-full-stack-test-app/blob/develop/docs/technical-test.png)
+
+_Link to the different documentations (Backend and Frontend):_
+- [Backend](https://github.com/DanielEspanadero/diverger-java-full-stack-test-app/blob/develop/backend/README.md)
+
 ## Fundamentals
 
 ### Backend Project
