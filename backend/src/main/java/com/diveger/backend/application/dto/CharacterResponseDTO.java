@@ -1,5 +1,6 @@
 package com.diveger.backend.application.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,9 +16,12 @@ import java.util.List;
 @JsonPropertyOrder({"name", "birth_year", "gender", "planet_name", "fastest_vehicle_driven", "films"})
 public class CharacterResponseDTO {
     private String name;
+    @JsonProperty("birth_year")
     private String birthYear;
     private String gender;
+    @JsonProperty("planet_name")
     private String planetName;
+    @JsonProperty("fastest_vehicle_driven")
     private String fastestVehicleDriven;
     private List<FilmResponseDTO> films;
 }

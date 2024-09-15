@@ -2,6 +2,7 @@ package com.diveger.backend.infrastructure.adapters.in;
 
 import com.diveger.backend.application.dto.CharacterResponseDTO;
 import com.diveger.backend.application.ports.out.PersonInfoPort;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 

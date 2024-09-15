@@ -22,4 +22,9 @@ public class Film {
     private String title;
     private String url;
     private List<Vehicle> vehicles;
+
+    public Film(String title, String releaseDate) {
+        this.title = title;
+        this.releaseDate = releaseDate;
+    }
 }
