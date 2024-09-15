@@ -2,6 +2,8 @@
 
 _Link to the different documentations (Backend and Frontend):_
 - [Backend](https://github.com/DanielEspanadero/diverger-java-full-stack-test-app/blob/develop/backend/README.md)
+- [Frontend](https://github.com/DanielEspanadero/diverger-java-full-stack-test-app/blob/develop/frontend/README.md)
+
 
 ## Fundamentals
 
