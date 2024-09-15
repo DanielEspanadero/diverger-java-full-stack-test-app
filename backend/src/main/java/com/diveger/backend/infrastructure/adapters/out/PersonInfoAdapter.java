@@ -8,6 +8,7 @@ import com.diveger.backend.domain.People;
 import com.diveger.backend.infrastructure.common.exceptions.BadRequestException;
 import com.diveger.backend.infrastructure.common.exceptions.CharacterNotFoundException;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
@@ -27,6 +28,7 @@ public class PersonInfoAdapter implements PersonInfoPort {
     }
 
     @Override
+    @Cacheable(value = "characterCache", key = "#name")
     public List<CharacterResponseDTO> getPersonInfo(String name) {
         validateCharacterName(name);
         try {
